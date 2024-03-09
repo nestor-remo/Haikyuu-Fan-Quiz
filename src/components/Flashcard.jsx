@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-export default function Flashcard( {flashcards} ) {
+const Flashcard = ({ question, answer }) => {
+  const [state, setAnswer] = useState(false);
+
+  const handleToggleAnswer = () => {
+    setAnswer(!state);
+    if (state) {
+      setAnswer(false);
+    }
+  };
+
   return (
-    <div>
-      
+    <div className="flashcard" onClick={handleToggleAnswer}>
+      {state ? answer : question}
     </div>
-  )
-}
+  );
+};
+
+export default Flashcard;
