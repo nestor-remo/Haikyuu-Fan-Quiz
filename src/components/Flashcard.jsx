@@ -1,24 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react'
 
-const Flashcard = ({ question, answer }) => {
-  const [showAnswer, setShowAnswer] = useState(false);
-
-  const flipCard = () => {
-    setShowAnswer(!showAnswer);
-  };
-
+export default function Flashcard( {flashcards} ) {
   return (
-    <div className="flashcard" onClick={flipCard}>
-      <div className="front">
-        <p>{question}</p>
-      </div>
-      {showAnswer && (
-        <div className="back">
-          <p>{answer}</p>
-        </div>
-      )}
+    <div>
+      
     </div>
-  );
-};
-
-export default Flashcard;
+  )
+}
