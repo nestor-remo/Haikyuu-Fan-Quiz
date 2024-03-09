@@ -1,10 +1,10 @@
-# Web Development Project 2 - *Name of App Here*
+# Web Development Project 2 - Haikyuu Fan Quiz
 
-Submitted by: **Your Name Here**
+Submitted by: Nestor Reategui
 
-This web app: **insert description**
+This web app: Haikyuu themed flashcard quiz that changes text depending on its state. The state changes when button is clicked, and randomizes next card.
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
@@ -33,7 +33,7 @@ Here's a walkthrough of implemented required features:
 <img src='./cpp2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
